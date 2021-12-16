@@ -1,0 +1,54 @@
+.head .logo img{
+    width: 20%;
+    height: 20%;
+}
+
+.container{
+    min-width: 100%;
+    padding: 0;
+}
+
+.navbar>.container{
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+.navbar-brand{
+    text-align: center;
+    font-weight: 500;
+}
+
+.username{
+    text-align: end;
+/*     text-decoration: underline; */
+    margin-left: 90px;
+    margin-right: 85px;
+}
+
+.search{
+    margin: 180px auto 0 auto;
+}
+
+.form-control {
+    width: 25%;
+}
+
+.btn{
+    width: 12%;
+}
+
+.first-container{
+    padding-left: 620px;
+    padding-right: 620px;
+    margin-top: 80px;
+}
+
+.data{
+    text-align: center;
+}
+
+.second-container{
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 80px;
+}

@@ -1,0 +1,64 @@
+.head .logo img{
+    width: 20%;
+    height: 20%;
+}
+
+.container{
+    min-width: 100%;
+    padding: 0;
+}
+
+.navbar>.container{
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+.navbar-brand{
+    text-align: center;
+    font-weight: 500;
+}
+
+.username{
+    text-align: end;
+/*     text-decoration: underline; */
+margin-left: 90px;
+margin-right: 85px;
+}
+
+.search{
+    margin: 180px auto 0 auto;
+}
+
+.form-control {
+    width: 25%;
+}
+
+.btn{
+    width: 12%;
+}
+
+.btn-control-head{
+    display: flex;
+    margin: 80px auto 60px auto;
+    border-radius: 0;
+    pointer-events: none;
+    width: 37%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* 
+.control-container{
+    margin: ;
+} */
+
+.btn-control{
+    display: flex;
+    margin: 0 auto 20px auto;
+    width: 37%;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
