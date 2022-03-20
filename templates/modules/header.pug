@@ -1,0 +1,91 @@
+section.head
+  .container
+    nav.navbar.navbar-expand-lg.navbar-dark(style='background-color: #0065FC; height: 84px;')
+      .container
+        .navbar-container
+          #navbarSupportedContent.collapse.navbar-collapse
+            ul.navbar-nav.me-auto.mb-2.mb-lg-0
+              a.navbar-brand.mt-auto.mb-auto(href='../main/main.html')
+                img(src='../../static/images/icons/logo.svg' alt='' width='70' height='70')
+              a.navbar-brand(href='../main/main.html')
+                | Личный
+                br
+                | кабинет
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand(href='../control/control.html')
+                | Панель
+                br
+                | управления
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand(href='#')
+                | Добавить
+                br
+                | наряд
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand(href='#')
+                | Актуальная
+                br
+                | карта
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand(href='#')
+                | Внутренние
+                br
+                | номера
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              li.navbar-brand.dropdown
+                a#navbarDropdown.navbar-brand.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
+                  | Наряды
+                ul.dropdown-menu(aria-labelledby='navbarDropdown')
+                  li
+                    a.dropdown-item(href='../order_list/order_list.html') Полный список
+                  li
+                    a.dropdown-item(href='#') В работе
+                  li
+                    a.dropdown-item(href='#') Доп. инфо
+                  li
+                    hr.dropdown-divider
+                  li
+                    a.dropdown-item(href='#') Артур и Женя
+                  li
+                    a.dropdown-item(href='#') Юра и Дима
+                  li
+                    a.dropdown-item(href='#') Руслан и Тимур
+                  li
+                    a.dropdown-item(href='#') Андрей
+                  li
+                    a.dropdown-item(href='#') Сторонний подрядчик
+                  li
+                    hr.dropdown-divider
+                  li
+                    a.dropdown-item(href='#') Ожидает дозамера
+                  li
+                    a.dropdown-item(href='#') Ожидает монтажа
+                  li
+                    a.dropdown-item(href='#') Изделия в производстве
+                  li
+                    a.dropdown-item(href='#') Производится монтаж
+                  li
+                    a.dropdown-item(href='#') Ремонт
+                  li
+                    a.dropdown-item(href='#') Закрыт
+                  li
+                    a.dropdown-item(href='#') Частично закрыт
+              a.navbar-brand(href='#')
+                | Документы
+                br
+                | компании
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand(href='#') Статистика
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand.username(href='#') Андрей Ладилов
+              button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              a.navbar-brand.mt-auto.mb-auto.exit(href='../auth/auth.html')
+                img(src='../../static/images/icons/exit.svg' alt='' width='40' height='50')

@@ -20,9 +20,8 @@
 
 .username{
     text-align: end;
-/*     text-decoration: underline; */
-margin-left: 90px;
-margin-right: 85px;
+    margin-left: 90px;
+    margin-right: 85px;
 }
 
 .search{
@@ -38,7 +37,6 @@ margin-right: 85px;
 }
 
 .first-container{
- /*    margin-left: -100px; */
     margin-top: 80px;
     max-width: 100%;
 }

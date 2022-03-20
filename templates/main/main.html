@@ -1,145 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StroyladCRM - main</title>
-    <link rel="shortcut icon" href="../../static/images/icons/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../static/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../../static/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="../../static/css/main.css">
-    <link rel="stylesheet" href="../../static/js/bootstrap.min.js">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../static/images/icons/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../static/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../../static/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="../../static/js/bootstrap.min.js">
+  <title>StroyladCRM - main</title>
+  <link rel="stylesheet" href="../../static/css/main.css">
 </head>
 <body>
-    <section class="head">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0065FC; height: 84px;"> 
-              <div class="container">
-                <div class="navbar-container">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <a class="navbar-brand mt-auto mb-auto" href="../main/main.html">
-                      <img src="../../static/images/icons/logo.svg" alt="" width="70" height="70">
-                    </a>
-                    <a class="navbar-brand" href="../main/main.html">Личный<br>кабинет</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                    <a class="navbar-brand" href="../control/control.html">Панель<br>управления</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Добавить<br>наряд</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Актуальная<br>карта</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Внутренние<br>номера</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                    <li class="navbar-brand dropdown">
-                      <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Наряды
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../order_list/order_list.html">Полный список</a></li>
-                        <li><a class="dropdown-item" href="#">В работе</a></li>
-                        <li><a class="dropdown-item" href="#">Доп. инфо</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Артур и Женя</a></li>
-                        <li><a class="dropdown-item" href="#">Юра и Дима</a></li>
-                        <li><a class="dropdown-item" href="#">Руслан и Тимур</a></li>
-                        <li><a class="dropdown-item" href="#">Андрей</a></li>
-                        <li><a class="dropdown-item" href="#">Сторонний подрядчик</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Ожидает дозамера</a></li>
-                        <li><a class="dropdown-item" href="#">Ожидает монтажа</a></li>
-                        <li><a class="dropdown-item" href="#">Изделия в производстве</a></li>
-                        <li><a class="dropdown-item" href="#">Производится монтаж</a></li>
-                        <li><a class="dropdown-item" href="#">Ремонт</a></li>
-                        <li><a class="dropdown-item" href="#">Закрыт</a></li>
-                        <li><a class="dropdown-item" href="#">Частично закрыт</a></li>
-                      </ul>
+  <section class="head">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0065FC; height: 84px;">
+        <div class="container">
+          <div class="navbar-container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0"><a class="navbar-brand mt-auto mb-auto" href="../main/main.html"><img src="../../static/images/icons/logo.svg" alt="" width="70" height="70"></a><a class="navbar-brand" href="../main/main.html">Личный<br>кабинет</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="../control/control.html">Панель<br>управления</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="#">Добавить<br>наряд</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="#">Актуальная<br>карта</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="#">Внутренние<br>номера</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <li class="navbar-brand dropdown"><a class="navbar-brand dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Наряды</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../order_list/order_list.html">Полный список</a></li>
+                    <li><a class="dropdown-item" href="#">В работе</a></li>
+                    <li><a class="dropdown-item" href="#">Доп. инфо</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
                     </li>
-                    <a class="navbar-brand" href="#">Документы<br>компании</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Статистика</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand username" href="#">Андрей Ладилов</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand mt-auto mb-auto exit" href="../auth/auth.html">
-                  <img src="../../static/images/icons/exit.svg" alt="" width="40" height="50">
-                </a>
+                    <li><a class="dropdown-item" href="#">Артур и Женя</a></li>
+                    <li><a class="dropdown-item" href="#">Юра и Дима</a></li>
+                    <li><a class="dropdown-item" href="#">Руслан и Тимур</a></li>
+                    <li><a class="dropdown-item" href="#">Андрей</a></li>
+                    <li><a class="dropdown-item" href="#">Сторонний подрядчик</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Ожидает дозамера</a></li>
+                    <li><a class="dropdown-item" href="#">Ожидает монтажа</a></li>
+                    <li><a class="dropdown-item" href="#">Изделия в производстве</a></li>
+                    <li><a class="dropdown-item" href="#">Производится монтаж</a></li>
+                    <li><a class="dropdown-item" href="#">Ремонт</a></li>
+                    <li><a class="dropdown-item" href="#">Закрыт</a></li>
+                    <li><a class="dropdown-item" href="#">Частично закрыт</a></li>
                   </ul>
-                </div>
-              </div>
+                </li><a class="navbar-brand" href="#">Документы<br>компании</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand" href="#">Статистика</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand username" href="#">Андрей Ладилов</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand mt-auto mb-auto exit" href="../auth/auth.html"><img src="../../static/images/icons/exit.svg" alt="" width="40" height="50"></a>
+              </ul>
             </div>
-            </nav>
-      </div>
-    </section>
-
-
-    <section class="search">
-      <div class="container">
-        <form class="d-flex justify-content-center"> 
-          <input class="form-control me-2" type="search" placeholder="Найти" aria-label="Search">
-          <button type="button" class="btn btn-outline-primary">Искать по нарядам</button>
-        </form>
-      </div>
-    </section>
-
-    <section class="tables" id="tables">
-      <div class="container">
-        <div class="first-container">
-        <table class="table table-hover table-bordered">
-          <thead class="table-light">
-            <tr>
-              <th scope="col" class="data">Общая прибыль</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr >
-              <td class="data">48000</td>
-            </tr>
-          </tbody>
-        </table>
+          </div>
         </div>
-        
-        <div class="second-container">
-          <table class="table table-hover table-bordered">
-            <thead class="table-light">
-              <tr>
-                <th scope="col" class="data">Сотрудник</th>
-                <th scope="col" class="data">Сумма выплаты</th>
-                <th scope="col"class="data">Дата выплаты</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="data">Андрей Ладилов</td>
-                <td class="data">48000</td>
-                <td class="data">10.06.2020</td>
-              </tr>
-            </tbody>
-          </table>
+      </nav>
+    </div>
+  </section>
+  <section class="search">
+    <div class="container">
+      <form class="d-flex justify-content-center">
+        <input class="form-control me-2" type="search" placeholder="Найти" aria-label="Search">
+        <button class="btn btn-outline-primary" type="button">Искать по нарядам</button>
+      </form>
+      <section class="tables" id="tables">
+        <div class="container">
+          <div class="first-container">
+            <table class="table table-hover table-bordered">
+              <thead class="table-light">
+                <tr>
+                  <th class="data" scope="col">&Ocy;&bcy;&shchcy;&acy;&yacy; &pcy;&rcy;&icy;&bcy;&ycy;&lcy;&softcy;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="data">48000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="second-container">
+            <table class="table table-hover table-bordered">
+              <thead class="table-light">
+                <tr>
+                  <th class="data" scope="col">&Scy;&ocy;&tcy;&rcy;&ucy;&dcy;&ncy;&icy;&kcy;</th>
+                  <th class="data" scope="col">&Scy;&ucy;&mcy;&mcy;&acy; &vcy;&ycy;&pcy;&lcy;&acy;&tcy;&ycy;</th>
+                  <th class="data" scope="col">&Dcy;&acy;&tcy;&acy; &vcy;&ycy;&pcy;&lcy;&acy;&tcy;&ycy;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="data">&Acy;&ncy;&dcy;&rcy;&iecy;&jcy; &Lcy;&acy;&dcy;&icy;&lcy;&ocy;&vcy;</td>
+                  <td class="data">48000</td>
+                  <td class="data">10.06.2020</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="../../static/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="../../static/js/auth.js"></script> -->
+      </section>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="../../static/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>

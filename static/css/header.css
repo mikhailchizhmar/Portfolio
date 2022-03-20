@@ -1,0 +1,27 @@
+.head .logo img {
+  width: 20%;
+  height: 20%;
+}
+
+.container {
+  min-width: 100%;
+  padding: 0;
+}
+
+.navbar > .container {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 5px;
+}
+
+.navbar-brand {
+  text-align: center;
+  font-weight: 500;
+}
+
+.username {
+  text-align: end;
+  margin-left: 90px;
+  margin-right: 85px;
+}

@@ -1,0 +1,34 @@
+include ../modules/head
+  title StroyladCRM - main
+  link(rel='stylesheet' href="../../static/css/main.css")
+body
+  include ../modules/header
+  section.search
+    .container
+      form.d-flex.justify-content-center
+        input.form-control.me-2(type='search' placeholder='Найти' aria-label='Search')
+        button.btn.btn-outline-primary(type='button') Искать по нарядам
+      section#tables.tables
+        .container
+          .first-container
+            table.table.table-hover.table-bordered
+              thead.table-light
+                tr
+                  th.data(scope='col') &Ocy;&bcy;&shchcy;&acy;&yacy; &pcy;&rcy;&icy;&bcy;&ycy;&lcy;&softcy;
+              tbody
+                tr
+                  td.data 48000
+          .second-container
+            table.table.table-hover.table-bordered
+              thead.table-light
+                tr
+                  th.data(scope='col') &Scy;&ocy;&tcy;&rcy;&ucy;&dcy;&ncy;&icy;&kcy;
+                  th.data(scope='col') &Scy;&ucy;&mcy;&mcy;&acy; &vcy;&ycy;&pcy;&lcy;&acy;&tcy;&ycy;
+                  th.data(scope='col') &Dcy;&acy;&tcy;&acy; &vcy;&ycy;&pcy;&lcy;&acy;&tcy;&ycy;
+              tbody
+                tr
+                  td.data &Acy;&ncy;&dcy;&rcy;&iecy;&jcy; &Lcy;&acy;&dcy;&icy;&lcy;&ocy;&vcy;
+                  td.data 48000
+                  td.data 10.06.2020
+  script(src='https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js')
+  script(src='../../static/js/bootstrap.bundle.min.js')

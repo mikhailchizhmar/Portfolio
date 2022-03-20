@@ -1,0 +1,50 @@
+include ../modules/head
+  title StroyladCRM - order_lis
+  link(rel='stylesheet' href="../../static/css/order_list.css")
+body
+  include ../modules/header
+  section.search
+    .container
+      form.d-flex.justify-content-center
+        input.form-control.me-2(type='search' placeholder='Найти' aria-label='Search')
+        button.btn.btn-outline-primary(type='button') Искать по нарядам
+  section.tables
+    .first-container
+      table.table.table-hover.table-bordered
+        thead.table-light
+          tr
+            th.data(scope='col') Номер наряда
+            th.data(scope='col') Дней наряду
+            th.data(scope='col') Заказчик
+            th.data(scope='col') Номер заказчика
+            th.data(scope='col') Адрес
+            th.data(scope='col') Дата наряда
+            th.data(scope='col') Изделия
+            th.data(scope='col') Статус заказа
+            th.data(scope='col') Рабочая команда
+            th.data(scope='col') Менеджер
+            th.data(scope='col') Бюджет
+            th.data(scope='col') Фонд
+            th.data(scope='col') Зарплаты
+            th.data(scope='col') Издержки
+            th.data(scope='col') Прибыль
+            th.data(scope='col') Доп. инфо
+        tbody
+          tr
+            td.data M0909090909
+            td.data 4
+            td.data ОГНЕВОЙ ВЛАДИМИР ПЕТРОВИЧ
+            td.data 8-916-254-81-01
+            td.data Московская область Истринский район коттеджный поселок большая вода дом 240 
+            td.data 20.07.2021
+            td.data Услуги монтажа по Воротам
+            td.data Ожидает монтажа
+            td.data Сторонний подрядчик
+            td.data Рубцова Татьяна Ильинична
+            td.data 46363.06
+            td.data 36200
+            td.data
+            td.data 0
+            td.data 0
+            td.data
+  script(src='../../static/js/bootstrap.bundle.min.js')

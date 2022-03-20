@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../static/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../static/css/test_form.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <div class="my_container">
+    <form method="post" action="#" enctype="multipart/form-data">
+
+      <div class="input-group mb-3">
+        <select name="status" class="form-select" required aria-label="Default select example">
+          <option value>Выберите статус</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <select class="form-select" name="team" required aria-label="Default select example">
+          <option value>Выберите бригаду</option>
+          <option value="Первая бригада">Первая бригада</option>
+          <option value="Вторая бригада">Вторая бригада</option>
+          <option value="Третья бригада">Третья бригада</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Адрес</span>
+        <input class="form-control" name="address" required placeholder="Введите Ваш адрес" aria-label="Адрес">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Имя</span>
+        <input type="name" name="customer" required class="form-control" placeholder="Введите Ваше имя" aria-label="Имя">
+      </div>
+
+      <div class="input-group mb-3">
+        <select name="manager" class="form-select" required aria-label="Default select example">
+          <option value>Выберите менеджера</option>
+          <option value="Первый менеджер">Первый менеджер</option>
+          <option value="Второй менеджер">Второй менеджер</option>
+          <option value="Третий менеджер">Третий менеджер</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Цена</span>
+        <input type="number" name="price" required class="form-control" placeholder="Введите цену" aria-label="Цена">
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Наряд</span>
+        <input type="text" name="montage_order" required class="form-control" placeholder="Введите наряд" aria-label="Наряд">
+      </div>
+
+      <div class="input-group">
+        <label for="formFileMultiple1" class="form-label">Монтажная карта</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="file" name="montage_cards" required class="form-control" form id="formFileMultiple1" multiple>
+      </div>
+
+      <div class="input-group">
+        <label for="formFileMultiple" class="form-label">Документы</label>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="file" name="documents" required class="form-control" form id="formFileMultiple" multiple>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Номер заказа</span>
+        <input type="number" name="order_number" required class="form-control" placeholder="Введите номер заказа" aria-label="Номер заказа">
+      </div>
+
+       <div class="input-group mb-3">
+        <select class="form-select" name="measureman" required aria-label="Default select example">
+          <option value>Выберите замерщика</option>
+          <option value="Первый замерщик">Первый замерщик</option>
+          <option value="Второй замерщик">Второй замерщик</option>
+          <option value="Третий замерщик">Третий замерщик</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <select class="form-select" name="delivery" required aria-label="Default select example">
+          <option value>Выберите тип доставки</option>
+          <option value="Доставка">Доставка</option>
+          <option value="Самовывоз">Самовывоз</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Дата</span>
+        <input type="date" name="archived_time" required class="form-control" placeholder="Выберите дату" aria-label="Дата">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Дата начала</span>
+        <input type="date" name="start_time" required class="form-control" placeholder="Выберите дату" aria-label="Дата">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Дата окончания</span>
+        <input type="date" name="finish_time" required class="form-control" placeholder="Выберите дату" aria-label="Дата">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Дата замера</span>
+        <input type="date" name="meashure_time" required class="form-control" placeholder="Выберите дату" aria-label="Дата">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Дата монтажа</span>
+        <input type="date" name="montage_time" required class="form-control" placeholder="Выберите дату" aria-label="Дата">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Комментарий к заказу</span>
+        <textarea class="form-control" name="note" aria-label="Комментарий к заказу"></textarea>
+      </div>
+
+      <div class="save">
+        <button class="btn btn-outline-primary" type="submit" value="Save">Сохранить</button>
+      </div>
+
+    </form>
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+</body>

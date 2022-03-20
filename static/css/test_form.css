@@ -1,0 +1,14 @@
+.my_container{
+    margin: 180px auto 0 auto;
+    width: 50%;
+}
+
+.save{
+    display: flex;
+    margin: 0 auto 50px auto;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 30%;
+}

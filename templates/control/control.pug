@@ -1,0 +1,21 @@
+include ../modules/head
+  title StroyladCRM - control
+  link(rel='stylesheet' href='../../static/css/control.css')
+body
+  include ../modules/header
+  section.search
+    .container
+      form.d-flex.justify-content-center
+        input.form-control.me-2(type='search' placeholder='Найти' aria-label='Search')
+        button.btn.btn-outline-primary(type='button') Искать по нарядам
+  section.control
+    button.btn.btn-primary.btn-control-head(type='button') Панель управления
+    .control-container
+      button.btn.btn-outline-primary.btn-control(type='button') Внести издержки
+      button.btn.btn-outline-primary.btn-control(type='button') Поставить задачу
+      button.btn.btn-outline-primary.btn-control(type='button') Выставить долг
+      button.btn.btn-outline-primary.btn-control(type='button') Выплатить зарплату сотрудникам
+      button.btn.btn-outline-primary.btn-control(type='button') Выплатить зарплату монтажникам
+      button.btn.btn-outline-primary.btn-control(type='button') Задания
+      button.btn.btn-outline-primary.btn-control(type='button') Долги
+  script(src='../../static/js/bootstrap.bundle.min.js')
